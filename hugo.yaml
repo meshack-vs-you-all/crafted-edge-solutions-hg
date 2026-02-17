@@ -1,4 +1,4 @@
-baseURL: "https://<YOUR-ORG>.github.io/<YOUR-REPO>/" # Placeholder - Update this!
+baseURL: "https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/"
 languageCode: "en-us"
 title: "Crafted Edge Solutions"
 theme: "hugo-theme-stack"
