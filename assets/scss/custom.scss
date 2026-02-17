@@ -1,0 +1,148 @@
+// Custom SCSS for Crafted Edge Solutions
+
+.homepage-content {
+    padding: 2rem 0;
+}
+
+.section {
+    margin-bottom: 4rem;
+    
+    &-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid var(--card-border);
+        padding-bottom: 0.5rem;
+        display: inline-block;
+    }
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--shadow-l1);
+    
+    &-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    &-subtitle {
+        font-size: 1.25rem;
+        color: var(--text-color);
+        margin-bottom: 2rem;
+        opacity: 0.8;
+    }
+    
+    &-cta {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    
+    &-primary {
+        background-color: var(--primary);
+        color: #fff;
+        &:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+    }
+    
+    &-secondary {
+        background-color: transparent;
+        border: 2px solid var(--primary);
+        color: var(--primary);
+        &:hover {
+            background-color: var(--primary);
+            color: #fff;
+        }
+    }
+
+    &-outline {
+        border: 1px solid var(--text-color);
+        color: var(--text-color);
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        &:hover {
+            background-color: var(--card-background);
+        }
+    }
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow-l1);
+    transition: transform 0.3s ease;
+    border: 1px solid var(--card-border);
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-l2);
+    }
+    
+    &-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    &-description, &-summary {
+        margin-bottom: 1.5rem;
+        color: var(--text-color);
+        opacity: 0.9;
+    }
+}
+
+.read-more {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.tags {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
+    .tag {
+        background: rgba(var(--primary-rgb), 0.1);
+        color: var(--primary);
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+    }
+}
+
+.section-footer {
+    text-align: center;
+    margin-top: 2rem;
+}

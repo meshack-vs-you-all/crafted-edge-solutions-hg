@@ -1,0 +1,77 @@
+{{ define "main" }}
+    <div class="homepage-content">
+        <!-- Hero Section -->
+        <section class="section hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Crafting the Future of Engineering</h1>
+                <p class="hero-subtitle">We build robust, scalable, and innovative technical solutions tailored to your business needs.</p>
+                <div class="hero-cta">
+                    <a href="/services/" class="btn btn-primary">Explore Services</a>
+                    <a href="/contact/" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services-preview">
+            <h2 class="section-title">Our Core Services</h2>
+            <div class="card-grid">
+                {{ range first 3 (where .Site.RegularPages "Section" "services") }}
+                    <div class="card service-card">
+                        <div class="card-content">
+                            <h3 class="card-title">{{ .Title }}</h3>
+                            <p class="card-description">{{ .Description }}</p>
+                            <a href="{{ .Permalink }}" class="read-more">Learn More &rarr;</a>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+            <div class="section-footer">
+                <a href="/services/" class="btn btn-outline">View All Services</a>
+            </div>
+        </section>
+        
+        <!-- Case Studies Section -->
+        <section class="section projects-preview">
+            <h2 class="section-title">Recent Work</h2>
+            <div class="card-grid">
+                {{ range first 3 (where .Site.RegularPages "Section" "case-studies") }}
+                     <div class="card project-card">
+                        <div class="card-content">
+                            <h3 class="card-title">{{ .Title }}</h3>
+                            <p class="card-summary">{{ .Params.description }}</p>
+                            <div class="tags">
+                                {{ range .Params.tags }}
+                                    <span class="tag">{{ . }}</span>
+                                {{ end }}
+                            </div>
+                            <a href="{{ .Permalink }}" class="read-more">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+             <div class="section-footer">
+                <a href="/case-studies/" class="btn btn-outline">View All Projects</a>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="section why-us">
+            <h2 class="section-title">Why Choose Crafted Edge?</h2>
+             <div class="card-grid">
+                <div class="card feature-card">
+                    <h3>Expert Engineering</h3>
+                    <p>We leverage top-tier talent and modern practices to deliver excellence.</p>
+                </div>
+                <div class="card feature-card">
+                    <h3>Scalable Solutions</h3>
+                    <p>Our architectures are designed to grow with your business.</p>
+                </div>
+                <div class="card feature-card">
+                    <h3>Transparent Process</h3>
+                    <p>Full visibility into our development cycle from day one.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+{{ end }}

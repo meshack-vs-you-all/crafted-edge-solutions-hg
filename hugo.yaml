@@ -1,0 +1,79 @@
+baseURL: "https://<YOUR-ORG>.github.io/<YOUR-REPO>/" # Placeholder - Update this!
+languageCode: "en-us"
+title: "Crafted Edge Solutions"
+theme: "hugo-theme-stack"
+
+# GitHub Pages Configuration
+canonifyURLs: true
+relativeURLs: false
+enableRobotsTXT: true
+
+# Enable extended features
+hasCJKLanguage: false
+enableEmoji: true
+
+# Services
+services:
+    googleAnalytics:
+        id: ""
+
+# Markup
+markup:
+    highlight:
+        noClasses: false
+
+# Menus
+menu:
+    main:
+        - identifier: services
+          name: Services
+          url: /services/
+          weight: 10
+        - identifier: case-studies
+          name: Case Studies
+          url: /case-studies/
+          weight: 20
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 30
+        - identifier: contact
+          name: Contact
+          url: /contact/
+          weight: 40
+
+# Parameters
+params:
+    mainSections: ["case-studies", "post"] # Show both in lists if needed, but we use custom layouts
+    featuredImageField: "image"
+    rssFullContent: true
+    favicon: "/favicon.ico" # Need to add this later
+    
+    footer:
+        since: 2024
+        customText: "Crafting modern engineering solutions."
+
+    dateFormat:
+        published: "Jan 2, 2006"
+        lastUpdated: "Jan 2, 2006"
+
+    sidebar:
+        emoji: true
+        subtitle: "Modern Engineering Agency"
+        compact: true # Minimize sidebar
+        avatar: "img/logo.png" # Placeholder
+
+    article:
+        toc: true
+        readingTime: false # Not blog-first
+        license:
+            enabled: false
+
+    colorScheme:
+        toggle: true
+        default: "dark" # User requested dark mode
+
+    # Minimize widgets in sidebar
+    widgets:
+        homepage: []
+        page: [] # Remove sidebar widgets for a cleaner look
