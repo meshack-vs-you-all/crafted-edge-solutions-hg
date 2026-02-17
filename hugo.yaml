@@ -61,7 +61,7 @@ params:
         emoji: true
         subtitle: "Modern Engineering Agency"
         compact: true # Minimize sidebar
-        avatar: "img/logo.png" # Placeholder
+        avatar: "" # Placeholder
 
     article:
         toc: true

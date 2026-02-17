@@ -12,10 +12,7 @@ technologies:
   - "AWS"
   - "Terraform"
 outcome: "Deployment time reduced to 15 minutes. System uptime improved to 99.99%. Developer productivity increased by 40%."
-params: # Need to nest custom params under params key if template uses .Params.problem. Or just top level frontmatter if template uses .Params.problem (Hugo merges frontmatter into Params) matches my template usage.
-    # Wait, in Hugo content files, top-level keys like problem are accessible via .Params.problem? Yes, usually.
-    # Let's be safe and put them under params if needed, but standard hugo practice is top level frontmatter keys become .Params.key.
-    # I'll stick to top level as written above.
+
 ---
 
 This project involved a complete overhaul of the client's core business platform.
