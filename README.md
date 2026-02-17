@@ -41,9 +41,36 @@ This is the corporate website for Crafted Edge Solutions, built with Hugo and th
 
 3.  **Start the Server**:
     ```bash
-    hugo server -D
     ```
-    Navigate to `http://localhost:1313`.
+
+## Development Workflow
+
+We use `make` to standardize development tasks.
+
+*   **Start Local Server**:
+    ```bash
+    make dev
+    # Or: ./scripts/start_dev.sh
+    ```
+    Access at `http://localhost:1313`.
+
+*   **Build Production**:
+    ```bash
+    make build
+    ```
+    Output is in `public/`.
+
+*   **Preview Production (Locally)**:
+    ```bash
+    make preview
+    # Or: ./scripts/preview_prod.sh
+    ```
+    Access at `http://localhost:8000`.
+
+*   **Clean Artifacts**:
+    ```bash
+    make clean
+    ```
 
 ## Deployment
 
