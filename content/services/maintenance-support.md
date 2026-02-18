@@ -1,6 +1,7 @@
 ---
 title: "Maintenance & Support"
-date: 2024-01-22T10:00:00Z
+date: 2025-12-20T10:00:00Z
+image: "/images/coding.jpg"
 description: "Ongoing maintenance, updates, and technical support for your applications. Keep your systems running smoothly with our dedicated support team."
 price: "Starting at $2,000/mo"
 layout: "single" 

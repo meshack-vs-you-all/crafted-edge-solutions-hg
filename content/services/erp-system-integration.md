@@ -1,6 +1,7 @@
 ---
 title: "ERP System Integration"
-date: 2024-01-18T10:00:00Z
+date: 2025-12-01T10:00:00Z
+image: "/images/data-analytics.jpg"
 description: "Integrate your existing systems with modern ERP solutions. Streamline operations, improve efficiency, and gain better insights into your business."
 price: "Starting at $12,000"
 layout: "single" 

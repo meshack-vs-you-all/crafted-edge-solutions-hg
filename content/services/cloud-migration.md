@@ -1,6 +1,7 @@
 ---
 title: "Cloud Migration Services"
-date: 2024-01-21T10:00:00Z
+date: 2025-12-15T10:00:00Z
+image: "/images/cloud.jpg"
 description: "Migrate your infrastructure to the cloud (AWS, Azure, GCP) with zero downtime. Optimize costs and improve scalability."
 price: "Starting at $15,000"
 layout: "single" 

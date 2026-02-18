@@ -1,6 +1,7 @@
 ---
 title: "E-commerce Platform"
-date: 2024-01-16T10:00:00Z
+date: 2025-11-20T10:00:00Z
+image: "/images/shopify.jpg"
 description: "Complete e-commerce solution with shopping cart, payment integration, inventory management, and admin dashboard. Perfect for businesses looking to sell online."
 price: "Starting at $8,000"
 layout: "single" 

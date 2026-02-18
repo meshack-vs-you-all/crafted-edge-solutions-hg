@@ -1,6 +1,7 @@
 ---
 title: "DevOps Consulting"
-date: 2024-01-02
+date: 2025-11-28
+image: "/images/cloud.jpg"
 description: "Streamlining your development lifecycle with CI/CD and automation."
 icon: "/images/cloud-icon.svg" # Placeholder
 layout: "single" 

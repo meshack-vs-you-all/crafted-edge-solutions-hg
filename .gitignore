@@ -12,3 +12,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Local-only files
+THEME_CHEATSHEET.md

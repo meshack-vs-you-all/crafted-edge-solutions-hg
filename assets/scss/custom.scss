@@ -1,148 +1,447 @@
 // Custom SCSS for Crafted Edge Solutions
+// Extends hugo-theme-stack with corporate styling
 
-.homepage-content {
-    padding: 2rem 0;
-}
-
-.section {
-    margin-bottom: 4rem;
-    
-    &-title {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-        border-bottom: 2px solid var(--card-border);
-        padding-bottom: 0.5rem;
-        display: inline-block;
-    }
-}
-
-.hero {
-    text-align: center;
-    padding: 4rem 0;
+// ============================================
+// HERO SECTION
+// ============================================
+.hero-section {
+    position: relative;
+    padding: 5rem 0 3rem;
+    margin-bottom: 3rem;
+    border-radius: var(--card-border-radius, 16px);
+    overflow: hidden;
     background: var(--card-background);
-    border-radius: var(--card-border-radius);
-    box-shadow: var(--shadow-l1);
-    
-    &-title {
+    box-shadow: var(--shadow-l2);
+
+    .hero-bg {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, rgba(52, 211, 153, 0.08) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(168, 85, 247, 0.08) 100%);
+        z-index: 0;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .hero-badge {
+        display: inline-block;
+        padding: 0.4rem 1.2rem;
+        border-radius: 99px;
+        background: rgba(52, 211, 153, 0.1);
+        border: 1px solid rgba(52, 211, 153, 0.3);
+        color: #34d399;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-title {
         font-size: 3rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        font-weight: 800;
+        line-height: 1.15;
+        margin-bottom: 1.25rem;
+
+        @media (max-width: 768px) {
+            font-size: 2rem;
+        }
+    }
+
+    .gradient-text {
+        background: linear-gradient(135deg, #34d399, #3b82f6, #a855f7);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        background-clip: text;
     }
-    
-    &-subtitle {
-        font-size: 1.25rem;
-        color: var(--text-color);
-        margin-bottom: 2rem;
-        opacity: 0.8;
+
+    .hero-subtitle {
+        font-size: 1.15rem;
+        opacity: 0.7;
+        max-width: 600px;
+        margin: 0 auto 2rem;
+        line-height: 1.6;
     }
-    
-    &-cta {
+
+    .hero-cta {
         display: flex;
         gap: 1rem;
         justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+    }
+
+    .hero-stats {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--card-border, rgba(255, 255, 255, 0.1));
+
+        @media (max-width: 768px) {
+            gap: 1.5rem;
+        }
+    }
+
+    .stat {
+        text-align: center;
+
+        &-number {
+            display: block;
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #34d399, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &-label {
+            display: block;
+            font-size: 0.8rem;
+            opacity: 0.6;
+            margin-top: 0.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
     }
 }
 
+// ============================================
+// BUTTONS
+// ============================================
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    border-radius: 4px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
-    transition: all 0.3s ease;
-    
+    font-size: 0.95rem;
+    transition: all 0.25s ease;
+    cursor: pointer;
+
+    svg {
+        transition: transform 0.25s ease;
+    }
+
+    &:hover svg {
+        transform: translateX(3px);
+    }
+
     &-primary {
-        background-color: var(--primary);
+        background: linear-gradient(135deg, #34d399, #3b82f6);
         color: #fff;
+        box-shadow: 0 4px 15px rgba(52, 211, 153, 0.3);
+
         &:hover {
-            opacity: 0.9;
             transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(52, 211, 153, 0.4);
         }
     }
-    
+
     &-secondary {
-        background-color: transparent;
-        border: 2px solid var(--primary);
-        color: var(--primary);
+        background: transparent;
+        border: 2px solid rgba(52, 211, 153, 0.5);
+        color: #34d399;
+
         &:hover {
-            background-color: var(--primary);
-            color: #fff;
+            background: rgba(52, 211, 153, 0.1);
+            border-color: #34d399;
         }
     }
 
     &-outline {
-        border: 1px solid var(--text-color);
-        color: var(--text-color);
-        padding: 0.5rem 1rem;
+        border: 1px solid var(--card-border, rgba(255, 255, 255, 0.15));
+        color: var(--card-text-color-main);
+        padding: 0.6rem 1.25rem;
         font-size: 0.9rem;
+        background: transparent;
+
         &:hover {
-            background-color: var(--card-background);
+            background: var(--card-background);
+            border-color: #34d399;
+            color: #34d399;
         }
     }
+
+    &-lg {
+        padding: 1rem 2rem;
+        font-size: 1.05rem;
+    }
 }
 
+// ============================================
+// SECTIONS
+// ============================================
+.section {
+    margin-bottom: 4rem;
+
+    .section-header {
+        margin-bottom: 2rem;
+    }
+
+    &-title {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    &-desc {
+        opacity: 0.6;
+        font-size: 0.95rem;
+    }
+
+    &-footer {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+// ============================================
+// CARD GRID
+// ============================================
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+
+    &--wide {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+
+    &--three {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
 }
 
-.card {
+// ============================================
+// SERVICE CARDS
+// ============================================
+.service-card {
     background: var(--card-background);
-    border-radius: var(--card-border-radius);
-    padding: 2rem;
+    border-radius: var(--card-border-radius, 16px);
+    padding: 1.75rem;
+    border: 1px solid var(--card-border, rgba(255, 255, 255, 0.08));
     box-shadow: var(--shadow-l1);
-    transition: transform 0.3s ease;
-    border: 1px solid var(--card-border);
-    
+    transition: all 0.3s ease;
+
     &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-4px);
         box-shadow: var(--shadow-l2);
+        border-color: rgba(52, 211, 153, 0.3);
     }
-    
-    &-title {
-        font-size: 1.5rem;
+
+    .card-icon {
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
-    
-    &-description, &-summary {
-        margin-bottom: 1.5rem;
-        color: var(--text-color);
-        opacity: 0.9;
+
+    .card-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+        opacity: 0.7;
+        margin-bottom: 1rem;
+        line-height: 1.5;
     }
 }
 
+// ============================================
+// PROJECT CARDS
+// ============================================
+.project-card {
+    background: var(--card-background);
+    border-radius: var(--card-border-radius, 16px);
+    overflow: hidden;
+    border: 1px solid var(--card-border, rgba(255, 255, 255, 0.08));
+    box-shadow: var(--shadow-l1);
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-l2);
+    }
+
+    .project-card-header {
+        padding: 1.5rem 1.5rem 0;
+        background: linear-gradient(135deg, rgba(52, 211, 153, 0.05), rgba(59, 130, 246, 0.05));
+    }
+
+    .card-content {
+        padding: 1rem 1.5rem 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-summary {
+        font-size: 0.9rem;
+        opacity: 0.7;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+}
+
+// ============================================
+// BLOG CARDS
+// ============================================
+.blog-card {
+    background: var(--card-background);
+    border-radius: var(--card-border-radius, 16px);
+    padding: 1.75rem;
+    border: 1px solid var(--card-border, rgba(255, 255, 255, 0.08));
+    box-shadow: var(--shadow-l1);
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-l2);
+    }
+
+    .blog-meta {
+        font-size: 0.8rem;
+        opacity: 0.5;
+        margin-bottom: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        line-height: 1.4;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+        opacity: 0.7;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+}
+
+// ============================================
+// FEATURE CARDS
+// ============================================
+.feature-card {
+    background: var(--card-background);
+    border-radius: var(--card-border-radius, 16px);
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid var(--card-border, rgba(255, 255, 255, 0.08));
+    box-shadow: var(--shadow-l1);
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-l2);
+        border-color: rgba(52, 211, 153, 0.3);
+    }
+
+    .feature-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+        opacity: 0.7;
+        line-height: 1.5;
+    }
+}
+
+// ============================================
+// TAGS
+// ============================================
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    .tag {
+        background: rgba(52, 211, 153, 0.1);
+        color: #34d399;
+        padding: 0.2rem 0.6rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+    }
+}
+
+// ============================================
+// READ MORE LINK
+// ============================================
 .read-more {
-    color: var(--primary);
+    color: #34d399;
     font-weight: 600;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+
     &:hover {
-        text-decoration: underline;
+        color: #3b82f6;
+
+        svg {
+            transform: translateX(3px);
+        }
+    }
+
+    svg {
+        transition: transform 0.2s ease;
     }
 }
 
-.tags {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    
-    .tag {
-        background: rgba(var(--primary-rgb), 0.1);
-        color: var(--primary);
-        padding: 0.25rem 0.5rem;
-        border-radius: 4px;
-        font-size: 0.8rem;
+// ============================================
+// CTA SECTION
+// ============================================
+.cta-section {
+    .cta-card {
+        text-align: center;
+        padding: 3.5rem 2rem;
+        background: linear-gradient(135deg, rgba(52, 211, 153, 0.08), rgba(59, 130, 246, 0.08));
+        border-radius: var(--card-border-radius, 16px);
+        border: 1px solid rgba(52, 211, 153, 0.2);
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            opacity: 0.7;
+            margin-bottom: 2rem;
+        }
     }
 }
 
-.section-footer {
-    text-align: center;
-    margin-top: 2rem;
+// ============================================
+// HOMEPAGE CONTENT WRAPPER
+// ============================================
+.homepage-content {
+    max-width: 100%;
 }

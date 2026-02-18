@@ -19,28 +19,14 @@ services:
 
 # Markup
 markup:
+    goldmark:
+        renderer:
+            unsafe: true
     highlight:
         noClasses: false
 
-# Menus
-menu:
-    main:
-        - identifier: services
-          name: Services
-          url: /services/
-          weight: 10
-        - identifier: case-studies
-          name: Case Studies
-          url: /case-studies/
-          weight: 20
-        - identifier: about
-          name: About
-          url: /about/
-          weight: 30
-        - identifier: contact
-          name: Contact
-          url: /contact/
-          weight: 40
+# Menus — defined in content frontmatter (single source of truth)
+# Do NOT add menu.main entries here to avoid duplication
 
 # Parameters
 params:
@@ -51,7 +37,7 @@ params:
     
     footer:
         since: 2024
-        customText: "Crafting modern engineering solutions."
+        customText: "Built by [Meshack Mogire](https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/) in Nairobi 🇰🇪"
 
     dateFormat:
         published: "Jan 2, 2006"
@@ -60,8 +46,14 @@ params:
     sidebar:
         emoji: true
         subtitle: "Modern Engineering Agency"
-        compact: true # Minimize sidebar
-        avatar: "" # Placeholder
+        compact: false
+        avatar: ""
+
+    social:
+        github: "https://github.com/meshack-vs-you-all"
+        twitter: "https://twitter.com/CraftedEdgeKE"
+        linkedin: "https://linkedin.com/in/meshackmogire"
+        email: "meshackmogire254@gmail.com"
 
     article:
         toc: true
@@ -75,5 +67,13 @@ params:
 
     # Minimize widgets in sidebar
     widgets:
-        homepage: []
-        page: [] # Remove sidebar widgets for a cleaner look
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+            - type: tag-cloud
+              params:
+                  limit: 15
+        page: []

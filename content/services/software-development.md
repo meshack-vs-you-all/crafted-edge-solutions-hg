@@ -1,6 +1,7 @@
 ---
 title: "Software Development"
-date: 2024-01-01
+date: 2025-11-10
+image: "/images/web-dev.jpg"
 description: "Custom software solutions tailored to your unique business challenges."
 icon: "/images/code-icon.svg" # Placeholder
 layout: "single" # Default single layout is fine for service detail usually, or custom if needed

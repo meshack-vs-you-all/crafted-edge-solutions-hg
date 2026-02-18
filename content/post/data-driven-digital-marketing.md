@@ -1,9 +1,9 @@
 ---
 title: "Data-Driven Digital Marketing: Beyond the Basics"
-date: 2026-02-15T10:00:00Z
+date: 2026-02-03T10:00:00Z
 slug: "data-driven-digital-marketing"
 description: "Maximize your ROI with data-driven digital marketing. SEO, content strategies, and paid advertising tailored to your audience."
-image: "https://images.unsplash.com/photo-1533750516457-a7f992034fec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+image: "/images/marketing.jpg"
 tags: ["Digital Marketing", "Growth"]
 categories: ["Growth"]
 ---

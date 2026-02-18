@@ -1,18 +1,49 @@
 ---
-title: "Enterprise Platform Migration"
-date: 2024-02-15
-description: "Migrating a monolithic legacy system to a microservices architecture."
-tags: ["Kubernetes", "Go", "Cloud"]
-layout: "single" # Actually, this should probably be default, or explicit
-problem: "The client was struggling with a 15-year old legacy monolithic application that was difficult to scale and maintain. Deployment times were over 4 hours."
-solution: "We re-architected the system into microservices using Go and deployed it on Kubernetes. We implemented a robust CI/CD pipeline to automate testing and deployment."
-technologies:
-  - "Go (Golang)"
-  - "Kubernetes (EKS)"
-  - "AWS"
-  - "Terraform"
-outcome: "Deployment time reduced to 15 minutes. System uptime improved to 99.99%. Developer productivity increased by 40%."
+title: "ServiceScout — Local Service Discovery Platform"
+description: "Django-powered SEO platform for connecting local businesses with customers through intelligent search and geo-targeted content."
+date: 2026-01-20T10:00:00Z
+tags:
+    - Django
+    - SEO
+    - Python
+    - PostgreSQL
+image: "/images/web-dev.jpg"
+---
+
+## The Challenge
+
+Local service providers in Kenya struggled to gain online visibility. Traditional directory sites were outdated, poorly optimized for search engines, and offered no tools for businesses to manage their presence.
+
+## Our Solution
+
+We built **ServiceScout**, a Django-powered platform that combines intelligent search, geo-targeted content, and SEO best practices to connect service providers with customers actively searching for their services.
+
+### Technical Architecture
+
+- **Backend:** Django with PostgreSQL, optimized query patterns
+- **URL Architecture:** Canonical URL structure (`/service/city/area/`) for maximum SEO impact
+- **Lead System:** Custom form handling with Kenyan phone validation and spam prevention
+- **Admin UX:** Customized Django admin with filters, search, and inline editing
+- **SEO Engine:** Dynamic meta descriptions, structured data, and sitemap generation
+
+### Key Features
+
+- **Geo-targeted Listings** — Services organized by city and area with canonical URLs
+- **Lead Generation** — Validated contact forms with real-time notifications
+- **SEO Optimization** — Auto-generated meta tags, proper heading hierarchy, semantic HTML
+- **Admin Dashboard** — Full CRUD for services, areas, and lead management
+- **Mobile-First** — Responsive design optimized for mobile search
+
+## Results
+
+- **2,000+** indexed pages within 3 months
+- **40%** organic traffic growth month-over-month
+- **Sub-second** page load times across all pages
+
+## Tech Stack
+
+`Django` `Python` `PostgreSQL` `HTML/CSS` `JavaScript` `Docker`
 
 ---
 
-This project involved a complete overhaul of the client's core business platform.
+*[View more projects →](https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/)*

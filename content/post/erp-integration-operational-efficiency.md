@@ -1,9 +1,9 @@
 ---
 title: "Why ERP Integration is the Key to Operational Efficiency"
-date: 2026-02-16T10:00:00Z
+date: 2026-01-15T10:00:00Z
 slug: "erp-integration-operational-efficiency"
 description: "Connect your business systems for better insights and efficiency. Expert ERP integration services from Crafted Edge Solutions."
-image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+image: "/images/data-analytics.jpg"
 tags: ["System Integration", "Business"]
 categories: ["Business"]
 ---

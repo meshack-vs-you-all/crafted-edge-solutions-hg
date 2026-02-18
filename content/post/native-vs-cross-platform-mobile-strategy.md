@@ -1,9 +1,9 @@
 ---
 title: "Native vs. Cross-Platform: Choosing the Right Mobile Strategy"
-date: 2026-02-17T10:00:00Z
+date: 2026-01-28T10:00:00Z
 slug: "native-vs-cross-platform-mobile-strategy"
 description: "Choose the right mobile strategy. We build high-retention iOS and Android apps using React Native and Flutter."
-image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+image: "/images/mobile-dev.jpg"
 tags: ["Mobile Apps", "Strategy"]
 categories: ["Strategy"]
 ---

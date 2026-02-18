@@ -1,12 +1,10 @@
 ---
 title: "Terms of Service"
-date: 2024-01-01
+date: 2025-11-26
 layout: "page"
 menu:
     main:
         weight: 91
-        params:
-            icon: "file-text"
 ---
 
 **Last Updated: January 1, 2024**
