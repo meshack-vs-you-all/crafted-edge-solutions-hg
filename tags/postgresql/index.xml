@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PostgreSQL on Crafted Edge Solutions</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/tags/postgresql/</link><description>Recent content in PostgreSQL on Crafted Edge Solutions</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/tags/postgresql/index.xml" rel="self" type="application/rss+xml"/><item><title>ServiceScout — Local Service Discovery Platform</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/enterprise-migration/</link><pubDate>Tue, 20 Jan 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/enterprise-migration/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;Local service providers in Kenya struggled to gain online visibility. Traditional directory sites were outdated, poorly optimized for search engines, and offered no tools for businesses to manage their presence.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built &lt;strong&gt;ServiceScout&lt;/strong&gt;, a Django-powered platform that combines intelligent search, geo-targeted content, and SEO best practices to connect service providers with customers actively searching for their services.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Django with PostgreSQL, optimized query patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URL Architecture:&lt;/strong&gt; Canonical URL structure (&lt;code&gt;/service/city/area/&lt;/code&gt;) for maximum SEO impact&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lead System:&lt;/strong&gt; Custom form handling with Kenyan phone validation and spam prevention&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin UX:&lt;/strong&gt; Customized Django admin with filters, search, and inline editing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SEO Engine:&lt;/strong&gt; Dynamic meta descriptions, structured data, and sitemap generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Geo-targeted Listings&lt;/strong&gt; — Services organized by city and area with canonical URLs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lead Generation&lt;/strong&gt; — Validated contact forms with real-time notifications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SEO Optimization&lt;/strong&gt; — Auto-generated meta tags, proper heading hierarchy, semantic HTML&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin Dashboard&lt;/strong&gt; — Full CRUD for services, areas, and lead management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile-First&lt;/strong&gt; — Responsive design optimized for mobile search&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2,000+&lt;/strong&gt; indexed pages within 3 months&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;40%&lt;/strong&gt; organic traffic growth month-over-month&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sub-second&lt;/strong&gt; page load times across all pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Django&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;HTML/CSS&lt;/code&gt; &lt;code&gt;JavaScript&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/" target="_blank" rel="noopener"
+ &gt;View more projects →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Kenya Scraper Platform — Automated Data Pipeline</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/analytics-dashboard/</link><pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/analytics-dashboard/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;A client needed structured business data from thousands of online sources across Kenya. Manual collection was impractical — they needed an automated, scalable pipeline that could handle anti-bot protections, rate limiting, and data normalization.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built the &lt;strong&gt;Kenya Scraper Platform&lt;/strong&gt;, a production-grade data pipeline using FastAPI for the API layer, Playwright for browser automation, and Celery for distributed task processing.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;API Layer:&lt;/strong&gt; FastAPI with async endpoints for job management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scraping Engine:&lt;/strong&gt; Playwright with stealth plugins, proxy rotation, and retry logic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task Queue:&lt;/strong&gt; Celery with Redis broker for distributed scraping jobs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storage:&lt;/strong&gt; PostgreSQL with optimized schemas for large datasets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring:&lt;/strong&gt; Real-time job status tracking and error reporting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distributed Scraping&lt;/strong&gt; — Celery workers process multiple sites concurrently&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anti-Detection&lt;/strong&gt; — Stealth browser profiles, randomized timing, proxy rotation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Normalization&lt;/strong&gt; — Raw HTML → structured JSON with validation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Job Management&lt;/strong&gt; — REST API for creating, monitoring, and managing scrape jobs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Export Pipeline&lt;/strong&gt; — CSV, JSON, and direct database insertion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;10,000+&lt;/strong&gt; records collected per day&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;99.2%&lt;/strong&gt; scraping success rate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zero&lt;/strong&gt; IP bans with proxy rotation strategy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;FastAPI&lt;/code&gt; &lt;code&gt;Playwright&lt;/code&gt; &lt;code&gt;Celery&lt;/code&gt; &lt;code&gt;Redis&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/" target="_blank" rel="noopener"
+ &gt;View more projects →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

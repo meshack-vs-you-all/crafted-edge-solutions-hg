@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Celery on Crafted Edge Solutions</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/tags/celery/</link><description>Recent content in Celery on Crafted Edge Solutions</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/tags/celery/index.xml" rel="self" type="application/rss+xml"/><item><title>Kenya Scraper Platform — Automated Data Pipeline</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/analytics-dashboard/</link><pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/analytics-dashboard/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;A client needed structured business data from thousands of online sources across Kenya. Manual collection was impractical — they needed an automated, scalable pipeline that could handle anti-bot protections, rate limiting, and data normalization.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built the &lt;strong&gt;Kenya Scraper Platform&lt;/strong&gt;, a production-grade data pipeline using FastAPI for the API layer, Playwright for browser automation, and Celery for distributed task processing.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;API Layer:&lt;/strong&gt; FastAPI with async endpoints for job management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scraping Engine:&lt;/strong&gt; Playwright with stealth plugins, proxy rotation, and retry logic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task Queue:&lt;/strong&gt; Celery with Redis broker for distributed scraping jobs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storage:&lt;/strong&gt; PostgreSQL with optimized schemas for large datasets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring:&lt;/strong&gt; Real-time job status tracking and error reporting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distributed Scraping&lt;/strong&gt; — Celery workers process multiple sites concurrently&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anti-Detection&lt;/strong&gt; — Stealth browser profiles, randomized timing, proxy rotation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Normalization&lt;/strong&gt; — Raw HTML → structured JSON with validation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Job Management&lt;/strong&gt; — REST API for creating, monitoring, and managing scrape jobs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Export Pipeline&lt;/strong&gt; — CSV, JSON, and direct database insertion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;10,000+&lt;/strong&gt; records collected per day&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;99.2%&lt;/strong&gt; scraping success rate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zero&lt;/strong&gt; IP bans with proxy rotation strategy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;FastAPI&lt;/code&gt; &lt;code&gt;Playwright&lt;/code&gt; &lt;code&gt;Celery&lt;/code&gt; &lt;code&gt;Redis&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/" target="_blank" rel="noopener"
+ &gt;View more projects →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>JPF Stretch Hub — Fitness Studio Management</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/jpf-stretch-hub/</link><pubDate>Sun, 28 Dec 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/jpf-stretch-hub/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;A growing fitness studio in Nairobi was managing bookings via WhatsApp, tracking payments in spreadsheets, and had no visibility into customer retention. They needed a single platform to run their entire operation.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built &lt;strong&gt;JPF Stretch Hub&lt;/strong&gt;, a comprehensive business management platform that handles the entire customer lifecycle — from booking to payment to retention.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; React with TailwindCSS for a modern, responsive dashboard&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Django REST Framework with Celery for async tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payments:&lt;/strong&gt; Integrated payment processing with M-Pesa and card payments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infrastructure:&lt;/strong&gt; Docker containerized, deployed on cloud infrastructure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Online Booking&lt;/strong&gt; — Customers book classes and sessions directly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payment Processing&lt;/strong&gt; — M-Pesa integration for seamless local payments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Client Management&lt;/strong&gt; — Complete CRM with attendance tracking and history&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class Scheduling&lt;/strong&gt; — Instructor management and automated scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics Dashboard&lt;/strong&gt; — Revenue, retention, and attendance insights&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated Reminders&lt;/strong&gt; — SMS/email notifications for upcoming sessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;80%&lt;/strong&gt; reduction in manual booking management time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;95%&lt;/strong&gt; payment collection rate (up from ~60% with manual tracking)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2x&lt;/strong&gt; class attendance with automated reminders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Django&lt;/code&gt; &lt;code&gt;React&lt;/code&gt; &lt;code&gt;Celery&lt;/code&gt; &lt;code&gt;TailwindCSS&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt; &lt;code&gt;M-Pesa API&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/" target="_blank" rel="noopener"
+ &gt;View more projects →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

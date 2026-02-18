@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>N8n on Crafted Edge Solutions</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/tags/n8n/</link><description>Recent content in N8n on Crafted Edge Solutions</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 20 Nov 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/tags/n8n/index.xml" rel="self" type="application/rss+xml"/><item><title>n8n Workflow Collection — Business Automation</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/n8n-workflows/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/n8n-workflows/</guid><description>&lt;h2 id="our-solution-automation-for-kenyan-businesses"&gt;Our Solution: Automation for Kenyan Businesses
+&lt;/h2&gt;&lt;p&gt;We specialize in helping Kenyan businesses bridge the digital divide by implementing AI-driven automations. Our &lt;strong&gt;n8n Workflow Collection&lt;/strong&gt; serves as the foundation for these services, allowing us to rapidly deploy proven automation patterns for local enterprises that haven&amp;rsquo;t yet reached their full operational potential.&lt;/p&gt;
+&lt;h3 id="helping-you-leverage-ai-operations"&gt;Helping You Leverage AI Operations
+&lt;/h3&gt;&lt;p&gt;Many businesses in the region are yet to fully integrate AI into their daily workflows. We provide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Custom n8n Integrations&lt;/strong&gt; for local and global APIs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-Driven Operations&lt;/strong&gt; to automate repetitive tasks like invoicing, lead generation, and customer support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operational Audits&lt;/strong&gt; to identify where automation can save time and reduce costs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We curated and indexed over &lt;strong&gt;4,300+&lt;/strong&gt; production-ready n8n workflows into a searchable, high-performance platform. The platform uses SQLite FTS5 for sub-100ms search times across thousands of integrations.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Search Engine:&lt;/strong&gt; Built with FastAPI and SQLite Full-Text Search (FTS5).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automation Logic:&lt;/strong&gt; Standardized n8n JSON formats covering over 360+ distinct services (Slack, Stripe, HubSpot, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD:&lt;/strong&gt; Automated security audits (Trivy) and GitHub Actions deployments to GitHub Pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Custom-built, lightweight frontend with Tailwind CSS and dark mode support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4,000+ Workflows&lt;/strong&gt; — Covering marketing, DevOps, sales, and more.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instant Search&lt;/strong&gt; — Find exact integrations in milliseconds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Export&lt;/strong&gt; — Download ready-to-import JSONs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fully Open&lt;/strong&gt; — Community-driven contributions and support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reduced dev time&lt;/strong&gt; — Saves hundreds of hours for automation engineers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High adoption&lt;/strong&gt; — Starred and used by developers globally.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Low footprint&lt;/strong&gt; — Runs efficiently with minimal resource consumption (&amp;lt;50MB RAM).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;n8n&lt;/code&gt; &lt;code&gt;FastAPI&lt;/code&gt; &lt;code&gt;SQLite&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt; &lt;code&gt;Tailwind CSS&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://zie619.github.io/n8n-workflows" target="_blank" rel="noopener"
+ &gt;Browse the collection →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

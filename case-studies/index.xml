@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Case Studies on Crafted Edge Solutions</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/</link><description>Recent content in Case Studies on Crafted Edge Solutions</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Feb 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/index.xml" rel="self" type="application/rss+xml"/><item><title>VERT — Privacy-First File Conversion</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/vert/</link><pubDate>Thu, 12 Feb 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/vert/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;Online file converters often require users to upload sensitive documents to third-party servers, raising privacy concerns. Additionally, many free services impose strict file size limits and slow conversion speeds.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built &lt;strong&gt;VERT&lt;/strong&gt;, a web-based file conversion utility that performs the actual conversion process directly in the user&amp;rsquo;s browser using &lt;strong&gt;WebAssembly&lt;/strong&gt;. No data is ever sent to a server for conversion.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; Svelte with TypeScript for a highly responsive and lightweight UI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conversion Engine:&lt;/strong&gt; Compiled Wasm modules for high-performance file processing on the client side.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Workers:&lt;/strong&gt; To handle large file processing in the background without freezing the UI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Hostable:&lt;/strong&gt; Easily deployable via Docker for private or enterprise use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local Processing&lt;/strong&gt; — Files never leave your device (images, audio, documents).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;250+ Formats&lt;/strong&gt; — Supports a wide array of document and media conversions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Size Limits&lt;/strong&gt; — Limited only by the power of your device.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modern UI&lt;/strong&gt; — Clean, intuitive interface with dark/light mode support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="why-this-matters"&gt;Why This Matters
+&lt;/h2&gt;&lt;p&gt;While VERT is an advanced fork of an established utility, its deployment showcases the power of &lt;strong&gt;WebAssembly&lt;/strong&gt; and &lt;strong&gt;SvelteKit&lt;/strong&gt; in creating privacy-first tools. For businesses handling sensitive data, self-hosting such a utility is often a critical requirement.&lt;/p&gt;
+&lt;h3 id="setup--technical-requirements"&gt;Setup &amp;amp; Technical Requirements
+&lt;/h3&gt;&lt;p&gt;To deploy or customize VERT for enterprise use, the following skills and tools are utilized:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SvelteKit &amp;amp; TypeScript&lt;/strong&gt; for UI customization and feature extensions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker &amp;amp; Docker Compose&lt;/strong&gt; for streamlined self-hosting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WebAssembly (Wasm)&lt;/strong&gt; comprehension for high-performance client-side processing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NGINX/Traefik&lt;/strong&gt; for secure, reverse-proxy deployment with SSL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;100% Privacy&lt;/strong&gt; — Guaranteed zero-data collection architecture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zero latency&lt;/strong&gt; — Minimal overhead as processing happens locally.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt; — No server-side processing costs, allowing for unlimited users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Svelte&lt;/code&gt; &lt;code&gt;TypeScript&lt;/code&gt; &lt;code&gt;WebAssembly&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt; &lt;code&gt;Nginx&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://vert.sh" target="_blank" rel="noopener"
+ &gt;View live site →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>MCP Client for Ollama — Local AI Developer Tool</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/mcp-client-ollama/</link><pubDate>Thu, 05 Feb 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/mcp-client-ollama/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;Developers working with the Model Context Protocol (MCP) needed a way to test and interact with MCP servers without relying on cloud-hosted LLMs. Existing tools were heavy, required API keys, and didn&amp;rsquo;t support local models.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built the &lt;strong&gt;MCP Client for Ollama&lt;/strong&gt;, a powerful terminal-based user interface (TUI) designed for interacting with MCP servers using locally-hosted LLMs through Ollama.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core:&lt;/strong&gt; Python with rich TUI framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LLM Backend:&lt;/strong&gt; Ollama integration for running models locally&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP Protocol:&lt;/strong&gt; Full MCP client implementation with tool calling support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Architecture:&lt;/strong&gt; Async-first design for responsive streaming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agent Mode&lt;/strong&gt; — Autonomous task execution with multi-step reasoning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Model Switching&lt;/strong&gt; — Switch between Ollama models on the fly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tool Management&lt;/strong&gt; — Discover, inspect, and invoke MCP tools&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Streaming Responses&lt;/strong&gt; — Real-time token streaming for responsive UX&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session Management&lt;/strong&gt; — Conversation history and context persistence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rich TUI&lt;/strong&gt; — Syntax highlighting, progress bars, and formatted output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zero&lt;/strong&gt; cloud API costs — runs entirely on local hardware&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open source&lt;/strong&gt; — Community-driven development and contributions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-platform&lt;/strong&gt; — Works on Linux, macOS, and WSL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Ollama&lt;/code&gt; &lt;code&gt;MCP Protocol&lt;/code&gt; &lt;code&gt;Async/Await&lt;/code&gt; &lt;code&gt;Rich TUI&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://github.com/meshack-vs-you-all/mcp-client-for-ollama" target="_blank" rel="noopener"
+ &gt;View on GitHub →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>ServiceScout — Local Service Discovery Platform</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/enterprise-migration/</link><pubDate>Tue, 20 Jan 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/enterprise-migration/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;Local service providers in Kenya struggled to gain online visibility. Traditional directory sites were outdated, poorly optimized for search engines, and offered no tools for businesses to manage their presence.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built &lt;strong&gt;ServiceScout&lt;/strong&gt;, a Django-powered platform that combines intelligent search, geo-targeted content, and SEO best practices to connect service providers with customers actively searching for their services.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Django with PostgreSQL, optimized query patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URL Architecture:&lt;/strong&gt; Canonical URL structure (&lt;code&gt;/service/city/area/&lt;/code&gt;) for maximum SEO impact&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lead System:&lt;/strong&gt; Custom form handling with Kenyan phone validation and spam prevention&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin UX:&lt;/strong&gt; Customized Django admin with filters, search, and inline editing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SEO Engine:&lt;/strong&gt; Dynamic meta descriptions, structured data, and sitemap generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Geo-targeted Listings&lt;/strong&gt; — Services organized by city and area with canonical URLs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lead Generation&lt;/strong&gt; — Validated contact forms with real-time notifications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SEO Optimization&lt;/strong&gt; — Auto-generated meta tags, proper heading hierarchy, semantic HTML&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin Dashboard&lt;/strong&gt; — Full CRUD for services, areas, and lead management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile-First&lt;/strong&gt; — Responsive design optimized for mobile search&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2,000+&lt;/strong&gt; indexed pages within 3 months&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;40%&lt;/strong&gt; organic traffic growth month-over-month&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sub-second&lt;/strong&gt; page load times across all pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Django&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;HTML/CSS&lt;/code&gt; &lt;code&gt;JavaScript&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/" target="_blank" rel="noopener"
+ &gt;View more projects →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Step Up Connect — Youth Growth Ecosystem</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/step-up-connect/</link><pubDate>Sat, 10 Jan 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/step-up-connect/</guid><description>&lt;h2 id="the-vision-something-big-in-development"&gt;The Vision: Something Big in Development
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Step Up Connect&lt;/strong&gt; is currently in active development and is poised to become a major ecosystem for youth empowerment. It&amp;rsquo;s more than just a job board; it&amp;rsquo;s a multi-faceted platform designed to scale across regions, connecting the next generation of professionals to a global economy.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;Young professionals often face a fragmented landscape when looking for jobs, mentorship, and skills development. There was a need for a unified &amp;ldquo;ecosystem&amp;rdquo; that not only provides resources but also uses AI to personalize the experience.&lt;/p&gt;
+&lt;h2 id="our-solution-1"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Step Up Connect&lt;/strong&gt; is a &amp;ldquo;static-first&amp;rdquo; but highly dynamic platform. It uses Hugo for a fast, SEO-optimized frontend while leveraging a FastAPI backend for real-time features like AI-driven career advice and secure payments.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; Hugo with the Blowfish theme for speed and accessibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Layer:&lt;/strong&gt; FastAPI with JWT authentication and role-based access control.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Integration:&lt;/strong&gt; Abstracted connectors for OpenAI and Google Gemini to generate job and skill recommendations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payments:&lt;/strong&gt; Integrated Flutterwave for secure transactions and monetized mentorship tiers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infra:&lt;/strong&gt; Fully containerized with Docker, including Redis for caching and PostgreSQL for data persistence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI Digest&lt;/strong&gt; — Personalized career and skill updates generated by LLMs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-Learning Integration&lt;/strong&gt; — Direct links to high-value skill paths and courses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mentorship Marketplace&lt;/strong&gt; — Connecting experienced leaders with rising talent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payments Ready&lt;/strong&gt; — Secure billing for premium features and consulting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Global reach&lt;/strong&gt; — Multilingual support out of the box.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exceptional performance&lt;/strong&gt; — Near-instant load times thanks to static-first architecture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable backend&lt;/strong&gt; — Handles high-concurrency AI requests efficiently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Hugo&lt;/code&gt; &lt;code&gt;FastAPI&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt; &lt;code&gt;Flutterwave&lt;/code&gt; &lt;code&gt;OpenAI&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://github.com/meshack-vs-you-all/step-up-connect" target="_blank" rel="noopener"
+ &gt;Learn more about Step Up Connect →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Kenya Scraper Platform — Automated Data Pipeline</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/analytics-dashboard/</link><pubDate>Mon, 05 Jan 2026 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/analytics-dashboard/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;A client needed structured business data from thousands of online sources across Kenya. Manual collection was impractical — they needed an automated, scalable pipeline that could handle anti-bot protections, rate limiting, and data normalization.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built the &lt;strong&gt;Kenya Scraper Platform&lt;/strong&gt;, a production-grade data pipeline using FastAPI for the API layer, Playwright for browser automation, and Celery for distributed task processing.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;API Layer:&lt;/strong&gt; FastAPI with async endpoints for job management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scraping Engine:&lt;/strong&gt; Playwright with stealth plugins, proxy rotation, and retry logic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task Queue:&lt;/strong&gt; Celery with Redis broker for distributed scraping jobs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storage:&lt;/strong&gt; PostgreSQL with optimized schemas for large datasets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring:&lt;/strong&gt; Real-time job status tracking and error reporting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distributed Scraping&lt;/strong&gt; — Celery workers process multiple sites concurrently&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anti-Detection&lt;/strong&gt; — Stealth browser profiles, randomized timing, proxy rotation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Normalization&lt;/strong&gt; — Raw HTML → structured JSON with validation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Job Management&lt;/strong&gt; — REST API for creating, monitoring, and managing scrape jobs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Export Pipeline&lt;/strong&gt; — CSV, JSON, and direct database insertion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;10,000+&lt;/strong&gt; records collected per day&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;99.2%&lt;/strong&gt; scraping success rate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zero&lt;/strong&gt; IP bans with proxy rotation strategy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;FastAPI&lt;/code&gt; &lt;code&gt;Playwright&lt;/code&gt; &lt;code&gt;Celery&lt;/code&gt; &lt;code&gt;Redis&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/" target="_blank" rel="noopener"
+ &gt;View more projects →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>JPF Stretch Hub — Fitness Studio Management</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/jpf-stretch-hub/</link><pubDate>Sun, 28 Dec 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/jpf-stretch-hub/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;A growing fitness studio in Nairobi was managing bookings via WhatsApp, tracking payments in spreadsheets, and had no visibility into customer retention. They needed a single platform to run their entire operation.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We built &lt;strong&gt;JPF Stretch Hub&lt;/strong&gt;, a comprehensive business management platform that handles the entire customer lifecycle — from booking to payment to retention.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; React with TailwindCSS for a modern, responsive dashboard&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Django REST Framework with Celery for async tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payments:&lt;/strong&gt; Integrated payment processing with M-Pesa and card payments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infrastructure:&lt;/strong&gt; Docker containerized, deployed on cloud infrastructure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Online Booking&lt;/strong&gt; — Customers book classes and sessions directly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payment Processing&lt;/strong&gt; — M-Pesa integration for seamless local payments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Client Management&lt;/strong&gt; — Complete CRM with attendance tracking and history&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class Scheduling&lt;/strong&gt; — Instructor management and automated scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics Dashboard&lt;/strong&gt; — Revenue, retention, and attendance insights&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated Reminders&lt;/strong&gt; — SMS/email notifications for upcoming sessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;80%&lt;/strong&gt; reduction in manual booking management time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;95%&lt;/strong&gt; payment collection rate (up from ~60% with manual tracking)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2x&lt;/strong&gt; class attendance with automated reminders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Django&lt;/code&gt; &lt;code&gt;React&lt;/code&gt; &lt;code&gt;Celery&lt;/code&gt; &lt;code&gt;TailwindCSS&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt; &lt;code&gt;M-Pesa API&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/" target="_blank" rel="noopener"
+ &gt;View more projects →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Shopify Marketing AI — Intelligent Campaign Automation</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/shopify-marketing-ai/</link><pubDate>Mon, 15 Dec 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/shopify-marketing-ai/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;Shopify store owners spent hours manually crafting marketing campaigns, writing product descriptions, and managing social media content. They needed an intelligent system that could automate these repetitive tasks while maintaining brand voice and quality.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;We developed &lt;strong&gt;Shopify Marketing AI&lt;/strong&gt;, an innovative platform that leverages AI agents to automate and optimize marketing strategies for Shopify stores.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core:&lt;/strong&gt; TypeScript with modular agent architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Engine:&lt;/strong&gt; Multi-agent system with specialized roles (copywriter, strategist, analyst)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integration:&lt;/strong&gt; Direct Shopify API integration for product and order data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content Pipeline:&lt;/strong&gt; Automated generation → review → publish workflow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI Campaign Generation&lt;/strong&gt; — Automated email campaigns based on product catalog and customer segments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product Description Writer&lt;/strong&gt; — AI-generated SEO-optimized product descriptions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Social Media Scheduler&lt;/strong&gt; — Cross-platform content generation and scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Analytics&lt;/strong&gt; — Real-time campaign performance tracking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brand Voice Training&lt;/strong&gt; — Custom AI fine-tuning to match store&amp;rsquo;s brand voice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;60%&lt;/strong&gt; reduction in marketing content creation time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;35%&lt;/strong&gt; improvement in email open rates with AI-optimized subject lines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3x&lt;/strong&gt; increase in social media engagement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;TypeScript&lt;/code&gt; &lt;code&gt;AI Agents&lt;/code&gt; &lt;code&gt;Shopify API&lt;/code&gt; &lt;code&gt;Node.js&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://github.com/meshack-vs-you-all/shopify-marketing-ai" target="_blank" rel="noopener"
+ &gt;View on GitHub →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>n8n Workflow Collection — Business Automation</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/n8n-workflows/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/n8n-workflows/</guid><description>&lt;h2 id="our-solution-automation-for-kenyan-businesses"&gt;Our Solution: Automation for Kenyan Businesses
+&lt;/h2&gt;&lt;p&gt;We specialize in helping Kenyan businesses bridge the digital divide by implementing AI-driven automations. Our &lt;strong&gt;n8n Workflow Collection&lt;/strong&gt; serves as the foundation for these services, allowing us to rapidly deploy proven automation patterns for local enterprises that haven&amp;rsquo;t yet reached their full operational potential.&lt;/p&gt;
+&lt;h3 id="helping-you-leverage-ai-operations"&gt;Helping You Leverage AI Operations
+&lt;/h3&gt;&lt;p&gt;Many businesses in the region are yet to fully integrate AI into their daily workflows. We provide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Custom n8n Integrations&lt;/strong&gt; for local and global APIs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-Driven Operations&lt;/strong&gt; to automate repetitive tasks like invoicing, lead generation, and customer support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operational Audits&lt;/strong&gt; to identify where automation can save time and reduce costs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We curated and indexed over &lt;strong&gt;4,300+&lt;/strong&gt; production-ready n8n workflows into a searchable, high-performance platform. The platform uses SQLite FTS5 for sub-100ms search times across thousands of integrations.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Search Engine:&lt;/strong&gt; Built with FastAPI and SQLite Full-Text Search (FTS5).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automation Logic:&lt;/strong&gt; Standardized n8n JSON formats covering over 360+ distinct services (Slack, Stripe, HubSpot, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD:&lt;/strong&gt; Automated security audits (Trivy) and GitHub Actions deployments to GitHub Pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Custom-built, lightweight frontend with Tailwind CSS and dark mode support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4,000+ Workflows&lt;/strong&gt; — Covering marketing, DevOps, sales, and more.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instant Search&lt;/strong&gt; — Find exact integrations in milliseconds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Export&lt;/strong&gt; — Download ready-to-import JSONs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fully Open&lt;/strong&gt; — Community-driven contributions and support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reduced dev time&lt;/strong&gt; — Saves hundreds of hours for automation engineers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High adoption&lt;/strong&gt; — Starred and used by developers globally.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Low footprint&lt;/strong&gt; — Runs efficiently with minimal resource consumption (&amp;lt;50MB RAM).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;n8n&lt;/code&gt; &lt;code&gt;FastAPI&lt;/code&gt; &lt;code&gt;SQLite&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt; &lt;code&gt;Tailwind CSS&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://zie619.github.io/n8n-workflows" target="_blank" rel="noopener"
+ &gt;Browse the collection →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>zpdf — High-Performance PDF Extraction</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/zpdf/</link><pubDate>Wed, 05 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/case-studies/zpdf/</guid><description>&lt;h2 id="the-challenge"&gt;The Challenge
+&lt;/h2&gt;&lt;p&gt;Modern document processing pipelines often rely on heavy, memory-intensive Python or JavaScript libraries to extract text from PDFs. For high-throughput systems, these tools can become a significant bottleneck.&lt;/p&gt;
+&lt;h2 id="our-solution"&gt;Our Solution
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;zpdf&lt;/strong&gt; is a low-level library written in &lt;strong&gt;Zig&lt;/strong&gt;, designed for maximum execution speed and minimal memory footprint. It focuses on the core task of reliable text extraction without the bloat.&lt;/p&gt;
+&lt;h3 id="technical-architecture"&gt;Technical Architecture
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Language:&lt;/strong&gt; Zig (0.13.0+) for precise memory control and safety.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backends:&lt;/strong&gt; Modular support for PDFium and MuPDF.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integration:&lt;/strong&gt; Designed to be easily embedded as a C-compatible library for use in Go, Rust, or Python.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Runtime:&lt;/strong&gt; No garbage collector, ensuring deterministic performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-features"&gt;Key Features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Extreme Speed&lt;/strong&gt; — Orders of magnitude faster than standard high-level libraries.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory Safety&lt;/strong&gt; — Leverages Zig&amp;rsquo;s ownership and allocation patterns to prevent leaks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C Table Integration&lt;/strong&gt; — Clean API for foreign function interface (FFI) support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Platform&lt;/strong&gt; — Compiles to Linux, macOS, and Windows with static linking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Optimized Pipelines&lt;/strong&gt; — Significantly reduces CPU cost in large-scale document processing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zero Overhead&lt;/strong&gt; — Perfect for cloud-native, serverless environments where memory is expensive.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Future-Ready&lt;/strong&gt; — Built for the next decade of systems engineering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Zig&lt;/code&gt; &lt;code&gt;PDFium&lt;/code&gt; &lt;code&gt;MuPDF&lt;/code&gt; &lt;code&gt;Systems Engineering&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://github.com/meshack-vs-you-all/zpdf" target="_blank" rel="noopener"
+ &gt;View on GitHub →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
