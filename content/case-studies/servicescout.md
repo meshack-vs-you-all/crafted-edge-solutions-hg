@@ -1,6 +1,6 @@
 ---
-title: "ServiceScout — Local Service Discovery Platform"
-description: "Django-powered SEO platform for connecting local businesses with customers through intelligent search and geo-targeted content."
+title: "ServiceScout — Local Service Discovery"
+description: "High-performance SEO platform connecting Kenyan service providers with local customers."
 date: 2026-01-20T10:00:00Z
 tags:
     - Django
