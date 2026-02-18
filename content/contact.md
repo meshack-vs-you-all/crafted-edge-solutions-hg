@@ -9,7 +9,30 @@ menu:
 
 ## Let's Connect
 
-Ready to start your next project? We'd love to hear from you.
+Ready to start your next project? We'd love to hear from you. Fill out the form below or reach out via email/WhatsApp.
+
+<!-- Formspree Contact Form -->
+<section style="margin: 2rem 0; padding: 2rem; background: var(--card-background); border-radius: 12px; border: 1px solid var(--border-color);">
+    <form action="https://formspree.io/f/meshackmogire254@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <label for="full-name" style="font-weight: 600;">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="Enter your name" required style="padding: 0.75rem; border-radius: 6px; border: 1px solid var(--border-color); background: var(--background);">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <label for="email-address" style="font-weight: 600;">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@example.com" required style="padding: 0.75rem; border-radius: 6px; border: 1px solid var(--border-color); background: var(--background);">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <label for="message" style="font-weight: 600;">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Tell us about your project..." required style="padding: 0.75rem; border-radius: 6px; border: 1px solid var(--border-color); background: var(--background);"></textarea>
+        </div>
+        <!-- Success Redirect -->
+        <input type="hidden" name="_next" value="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/thank-you/">
+        <button type="submit" style="padding: 1rem; background: var(--primary); color: #fff; border: none; border-radius: 6px; font-weight: 700; cursor: pointer; transition: opacity 0.2s;">
+            Send Message
+        </button>
+    </form>
+</section>
 
 ### 📧 Email
 

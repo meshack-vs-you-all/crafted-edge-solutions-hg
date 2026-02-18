@@ -1,8 +1,8 @@
 ---
 title: "API Development & Integration"
-date: 2025-12-10T10:00:00Z
+description: "Robust and secure API solutions to power your web and mobile applications, ensuring seamless data flow."
+date: 2025-11-20T10:00:00Z
 image: "/images/api-dev.jpg"
-description: "RESTful and GraphQL API development for connecting your applications with third-party services. Secure, scalable, and well-documented APIs."
 price: "Starting at $6,000"
 layout: "single" 
 ---

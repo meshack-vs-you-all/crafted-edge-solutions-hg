@@ -1,8 +1,8 @@
 ---
 title: "Mobile App Development"
-date: 2025-11-25T10:00:00Z
+date: 2025-11-20T10:00:00Z
 image: "/images/mobile-dev.jpg"
-description: "Native iOS and Android mobile applications built with React Native or Flutter. Our mobile solutions are designed with customer retention at the core."
+description: "Intuitive and high-performance mobile applications for iOS and Android using Flutter and React Native."
 price: "Starting at $10,000"
 layout: "single" 
 ---

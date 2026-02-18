@@ -1,8 +1,8 @@
 ---
 title: "ERP System Integration"
-date: 2025-12-01T10:00:00Z
+description: "Unify your business operations by connecting your ERP with external platforms and custom applications."
+date: 2025-11-20T10:00:00Z
 image: "/images/data-analytics.jpg"
-description: "Integrate your existing systems with modern ERP solutions. Streamline operations, improve efficiency, and gain better insights into your business."
 price: "Starting at $12,000"
 layout: "single" 
 ---

@@ -1,8 +1,8 @@
 ---
-title: "Software Development"
-date: 2025-11-10
+title: "Enterprise Software Development"
+date: 2025-11-20T10:00:00Z
 image: "/images/web-dev.jpg"
-description: "Custom software solutions tailored to your unique business challenges."
+description: "Custom software solutions engineered to solve complex business challenges and drive digital transformation."
 icon: "/images/code-icon.svg" # Placeholder
 layout: "single" # Default single layout is fine for service detail usually, or custom if needed
 ---

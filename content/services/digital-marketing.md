@@ -1,8 +1,8 @@
 ---
-title: "Digital Marketing Services"
-date: 2025-12-05T10:00:00Z
+title: "Digital Marketing & SEO"
+date: 2025-11-20T10:00:00Z
 image: "/images/marketing.jpg"
-description: "Comprehensive digital marketing solutions including SEO, social media management, content marketing, and paid advertising campaigns."
+description: "Data-driven marketing strategies that increase visibility and drive meaningful engagement for your brand."
 price: "Starting at $3,000"
 layout: "single" 
 ---

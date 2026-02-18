@@ -8,8 +8,22 @@ canonifyURLs: true
 relativeURLs: false
 enableRobotsTXT: true
 
+# Sitemap configuration
+sitemap:
+  changefreq: "weekly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+# Imaging for WebP processing
+imaging:
+  resampleFilter: "Box"
+  quality: 75
+  anchor: "smart"
+  webp:
+    quality: 75
+    enable: true
+
 # Enable extended features
-hasCJKLanguage: false
 enableEmoji: true
 
 # Services
@@ -69,6 +83,7 @@ params:
     widgets:
         homepage:
             - type: search
+            - type: testimonials
             - type: archives
               params:
                   limit: 5
