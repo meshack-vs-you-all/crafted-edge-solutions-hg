@@ -1,65 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Our Services on Crafted Edge Solutions | Premium Engineering &amp; Digital Agency</title><link>http://localhost:1318/services/</link><description>Recent content in Our Services on Crafted Edge Solutions | Premium Engineering &amp; Digital Agency</description><generator>Hugo -- gohugo.io</generator><language>en-KE</language><lastBuildDate>Thu, 20 Nov 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1318/services/index.xml" rel="self" type="application/rss+xml"/><item><title>API Development &amp; Integration</title><link>http://localhost:1318/services/api-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/api-development/</guid><description>&lt;p&gt;Build the backbone of your software ecosystem with robust APIs.&lt;/p&gt;
-&lt;h2 id="features"&gt;Features
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;RESTful &amp;amp; GraphQL&lt;/strong&gt;: Modern standards&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: OAuth2 &amp;amp; JWT implementation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: Swagger/OpenAPI specs&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt;: High-throughput endpoints&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Cloud Migration &amp; Infrastructure</title><link>http://localhost:1318/services/cloud-migration/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/cloud-migration/</guid><description>&lt;p&gt;Move to the cloud with confidence and minimal disruption.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Our Services on Crafted Edge Solutions | Premium Engineering &amp; Digital Agency</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/</link><description>Recent content in Our Services on Crafted Edge Solutions | Premium Engineering &amp; Digital Agency</description><generator>Hugo -- gohugo.io</generator><language>en-KE</language><lastBuildDate>Thu, 20 Nov 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/index.xml" rel="self" type="application/rss+xml"/><item><title>API Development &amp; Integration</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/api-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/api-development/</guid><description>&lt;p&gt;In today&amp;rsquo;s interconnected digital landscape, your API is the silent engine driving your business. At Crafted Edge Solutions, we don&amp;rsquo;t just write endpoints; we architect &lt;strong&gt;robust communication layers&lt;/strong&gt; that ensure your data flows securely and efficiently across platforms.&lt;/p&gt;
+&lt;h2 id="building-the-backbone-of-your-ecosystem"&gt;Building the Backbone of Your Ecosystem
+&lt;/h2&gt;&lt;p&gt;Whether you are powering a consumer mobile app, an internal admin dashboard, or a third-party partner integration, our APIs are built for &lt;strong&gt;scale and reliability&lt;/strong&gt;. We leverage modern frameworks like &lt;strong&gt;Django REST Framework&lt;/strong&gt; and &lt;strong&gt;FastAPI&lt;/strong&gt; to deliver high-throughput systems that can handle thousands of concurrent requests without breaking a sweat.&lt;/p&gt;
+&lt;h3 id="our-core-api-capabilities"&gt;Our Core API Capabilities:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RESTful &amp;amp; GraphQL Architectures&lt;/strong&gt;: We choose the right standard for your specific data needs, ensuring flexible and efficient querying.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise-Grade Security&lt;/strong&gt;: Implementing &lt;strong&gt;OAuth2&lt;/strong&gt;, &lt;strong&gt;JWT (JSON Web Tokens)&lt;/strong&gt;, and &lt;strong&gt;RBAC (Role-Based Access Control)&lt;/strong&gt; to keep your sensitive data protected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated Documentation&lt;/strong&gt;: Every API we build comes with interactive &lt;strong&gt;Swagger/OpenAPI&lt;/strong&gt; documentation, making developer handoff and third-party integration a breeze.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Optimization&lt;/strong&gt;: Utilizing &lt;strong&gt;Redis caching&lt;/strong&gt; and asynchronous task processing to deliver sub-second response times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="specialized-for-the-african-context"&gt;Specialized for the African Context
+&lt;/h2&gt;&lt;p&gt;We understand the unique challenges of the Kenyan and wider African markets. Our API designs are optimized for &lt;strong&gt;low-bandwidth environments&lt;/strong&gt; and seamless &lt;strong&gt;local payment integrations&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Daraja (M-Pesa) Integration&lt;/strong&gt;: Secure, callback-verified payment flows for your business.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMS &amp;amp; USSD Gateways&lt;/strong&gt;: Connecting your digital products to the majority of users who rely on non-smartphone interfaces.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Offline-First Strategies&lt;/strong&gt;: Intelligent data synchronization protocols that ensure your mobile apps remain functional even when connectivity is intermittent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="why-quality-api-engineering-matters"&gt;Why Quality API Engineering Matters
+&lt;/h2&gt;&lt;p&gt;A poorly designed API is a technical debt trap. Our approach focuses on &lt;strong&gt;versioning and maintainability&lt;/strong&gt;, ensuring that your system can evolve without breaking existing clients. We believe that your backend should be a silent partner—always available, always secure, and always fast.&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/contact/" &gt;Discuss Your API Needs With Us&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Cloud Migration &amp; Infrastructure</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/cloud-migration/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/cloud-migration/</guid><description>&lt;p&gt;Move to the cloud with confidence and minimal disruption.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Zero Downtime&lt;/strong&gt;: Seamless transition&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cost Optimization&lt;/strong&gt;: Pay for what you use&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Auto-scaling infrastructure&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: Cloud-native security best practices&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Custom Website Development</title><link>http://localhost:1318/services/custom-website-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/custom-website-development/</guid><description>&lt;p&gt;We build fully customized websites tailored to your unique business needs.&lt;/p&gt;
-&lt;h2 id="features"&gt;Features
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Modern Tech Stack&lt;/strong&gt;: React, Django, Node.js&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SEO Optimized&lt;/strong&gt;: Built for search engine visibility&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;: Looks great on all devices&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>DevOps &amp; SRE Consulting</title><link>http://localhost:1318/services/devops-consulting/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/devops-consulting/</guid><description>&lt;p&gt;We help you ship faster and more reliably.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Custom Website Development</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/custom-website-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/custom-website-development/</guid><description>&lt;p&gt;Your website is more than just a digital brochure; it&amp;rsquo;s your &lt;strong&gt;primary business asset&lt;/strong&gt; in an increasingly online world. At Crafted Edge Solutions, we specialize in building custom web applications that don&amp;rsquo;t just look great—they deliver &lt;strong&gt;results&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="precision-engineering-meets-modern-design"&gt;Precision Engineering Meets Modern Design
+&lt;/h2&gt;&lt;p&gt;We move away from one-size-fits-all solutions. Our development process is a deep dive into your business&amp;rsquo;s specific needs, resulting in a &lt;strong&gt;bespoke digital presence&lt;/strong&gt; that reflects your brand and meets your operational goals.&lt;/p&gt;
+&lt;h3 id="our-web-development-arsenal"&gt;Our Web Development Arsenal:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modern Frameworks&lt;/strong&gt;: We utilize the latest in &lt;strong&gt;React&lt;/strong&gt;, &lt;strong&gt;Next.js&lt;/strong&gt;, and &lt;strong&gt;Django&lt;/strong&gt; to build fast, secure, and maintainable applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conversion-Centric UI/UX&lt;/strong&gt;: Every pixel is placed with intent, focusing on intuitive navigation and clear calls to action (CTAs).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SEO &amp;amp; Search Visibility&lt;/strong&gt;: We integrate search engine optimization (SEO) into the foundation of your site, ensuring your business is found by the right audience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extreme Performance&lt;/strong&gt;: Using static site generation (SSG) and server-side rendering (SSR), we achieve &lt;strong&gt;Lighthouse scores in the high 90s&lt;/strong&gt;, providing a near-instant user experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tailored-for-growth-and-scalability"&gt;Tailored for Growth and Scalability
+&lt;/h2&gt;&lt;p&gt;A website from Crafted Edge is built to &lt;strong&gt;grow with you&lt;/strong&gt;. Whether you are starting with a single service or launching a complex platform, our architectures are modular and ready to expand.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsive to the Core&lt;/strong&gt;: Your site will perform flawlessly on mobile, tablet, and desktop—ensuring you reach your users wherever they are.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content Management Made Easy&lt;/strong&gt;: We integrate user-friendly CMS options like &lt;strong&gt;Wagtail&lt;/strong&gt; or &lt;strong&gt;Headless CMS&lt;/strong&gt; solutions, allowing your non-technical team to update content with confidence.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security as a Standard&lt;/strong&gt;: From SSL configuration to secure data handling, we protect your brand and your users&amp;rsquo; data with industry-best practices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="elevate-your-online-presence"&gt;Elevate Your Online Presence
+&lt;/h2&gt;&lt;p&gt;In the competitive Kenyan market, a slow or unoptimized website is a lost opportunity. We help you stand out with a professional, high-impact digital presence that establishes trust and drives business growth.&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/contact/" &gt;Start Your Web Project Today&lt;/a&gt;&lt;/p&gt;</description></item><item><title>DevOps &amp; SRE Consulting</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/devops-consulting/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/devops-consulting/</guid><description>&lt;p&gt;We help you ship faster and more reliably.&lt;/p&gt;
 &lt;h2 id="capabilities"&gt;Capabilities
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Infrastructure as Code&lt;/strong&gt;: Terraform, Ansible&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CI/CD Pipelines&lt;/strong&gt;: GitLab CI, GitHub Actions&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Containerization&lt;/strong&gt;: Docker, Kuwait&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Digital Marketing &amp; SEO</title><link>http://localhost:1318/services/digital-marketing/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/digital-marketing/</guid><description>&lt;p&gt;Grow your brand with data-driven digital marketing.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Digital Marketing &amp; SEO</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/digital-marketing/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/digital-marketing/</guid><description>&lt;p&gt;Grow your brand with data-driven digital marketing.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;SEO&lt;/strong&gt;: Improve search rankings&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;PPC&lt;/strong&gt;: Targeted paid advertising&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Social Media&lt;/strong&gt;: Brand engagement&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Content Marketing&lt;/strong&gt;: Storytelling that converts&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>E-commerce Platform Development</title><link>http://localhost:1318/services/e-commerce-platform/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/e-commerce-platform/</guid><description>&lt;p&gt;Launch your online store with a robust, scalable e-commerce platform.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>E-commerce Platform Development</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/e-commerce-platform/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/e-commerce-platform/</guid><description>&lt;p&gt;Launch your online store with a robust, scalable e-commerce platform.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Shopping Cart&lt;/strong&gt;: Seamless checkout experience&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Payment Integration&lt;/strong&gt;: Secure payment gateways&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Inventory Management&lt;/strong&gt;: Real-time stock tracking&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Admin Dashboard&lt;/strong&gt;: Easy store management&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Enterprise Software Development</title><link>http://localhost:1318/services/software-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/software-development/</guid><description>&lt;p&gt;We build robust, scalable applications using modern technologies.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Enterprise Software Development</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/software-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/software-development/</guid><description>&lt;p&gt;We build robust, scalable applications using modern technologies.&lt;/p&gt;
 &lt;h2 id="our-expertise"&gt;Our Expertise
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Go, Python, Node.js&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: React, Vue, Svelte&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mobile&lt;/strong&gt;: Flutter, React Native&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Whether you need a new product built from scratch or an existing system modernized, our team has the expertise to deliver.&lt;/p&gt;</description></item><item><title>ERP System Integration</title><link>http://localhost:1318/services/erp-system-integration/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/erp-system-integration/</guid><description>&lt;p&gt;Connect your business systems for a unified operational view.&lt;/p&gt;
-&lt;h2 id="features"&gt;Features
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;System Integration&lt;/strong&gt;: Connect CRM, ERP, and Accounting&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;: Automate workflows&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Insights&lt;/strong&gt;: Real-time data visibility&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Grow without technical debt&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Mobile App Development</title><link>http://localhost:1318/services/mobile-app-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/mobile-app-development/</guid><description>&lt;p&gt;Engage your customers with high-performance mobile applications.&lt;/p&gt;
+&lt;p&gt;Whether you need a new product built from scratch or an existing system modernized, our team has the expertise to deliver.&lt;/p&gt;</description></item><item><title>ERP System Integration</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/erp-system-integration/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/erp-system-integration/</guid><description>&lt;p&gt;Efficiency in modern business operations starts with a &lt;strong&gt;unified view of your data&lt;/strong&gt;. At Crafted Edge Solutions, we specialize in building the bridges that connect your Enterprise Resource Planning (ERP) systems with the platforms your team uses every day.&lt;/p&gt;
+&lt;h2 id="eliminating-silos-and-automating-workflows"&gt;Eliminating Silos and Automating Workflows
+&lt;/h2&gt;&lt;p&gt;If your CRM, accounting software, and inventory management are not talking to each other, you are losing valuable time and increasing the risk of human error. Our integration services focus on &lt;strong&gt;streamlining your business logic&lt;/strong&gt; into a single, cohesive ecosystem.&lt;/p&gt;
+&lt;h3 id="our-integration-approach"&gt;Our Integration Approach:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Custom Middleware &amp;amp; Connectors&lt;/strong&gt;: We develop bespoke API bridges using &lt;strong&gt;Django&lt;/strong&gt; and &lt;strong&gt;FastAPI&lt;/strong&gt; to connect legacy ERPs with modern SaaS platforms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Data Visibility&lt;/strong&gt;: No more waiting for end-of-day reports. Our integrations provide &lt;strong&gt;live dashboards and analytics&lt;/strong&gt; that reflect your current business state.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Automation&lt;/strong&gt;: We automate repetitive tasks between systems, such as syncing orders with inventory levels or triggering accounting entries from successful payments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable Architecture&lt;/strong&gt;: We design our integrations to grow with your business, allowing you to add new modules and platforms without a total system overhaul.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tailored-for-the-kenyan-business-landscape"&gt;Tailored for the Kenyan Business Landscape
+&lt;/h2&gt;&lt;p&gt;We understand that local businesses have specific integration needs, from &lt;strong&gt;KRA iTax&lt;/strong&gt; compliance to local banking and mobile money reconciliation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local Payment Gateways&lt;/strong&gt;: Synchronize M-Pesa (Daraja) transactions directly with your accounting and ERP systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRM &amp;amp; Marketing Automation&lt;/strong&gt;: Connect your customer data with platforms like &lt;strong&gt;Mailchimp&lt;/strong&gt; or custom &lt;strong&gt;AI Marketing Agents&lt;/strong&gt; to drive sales.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logistics &amp;amp; Supply Chain&lt;/strong&gt;: Integrate with local delivery and warehousing partners for real-time order tracking and fulfillment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-value-of-an-integrated-business"&gt;The Value of an Integrated Business
+&lt;/h2&gt;&lt;p&gt;An integrated ERP is not just a technical upgrade; it&amp;rsquo;s a &lt;strong&gt;strategic business feature&lt;/strong&gt;. It reduces operational friction, provides actionable insights, and allows your team to focus on growth rather than data entry.&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/contact/" &gt;Optimize Your Operations with Us&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Mobile App Development</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/mobile-app-development/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/mobile-app-development/</guid><description>&lt;p&gt;Engage your customers with high-performance mobile applications.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-Platform&lt;/strong&gt;: React Native or Flutter&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;User Retention&lt;/strong&gt;: Push notifications &amp;amp; analytics&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Seamless Onboarding&lt;/strong&gt;: Intuitive user flows&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Loyalty Programs&lt;/strong&gt;: Integrated rewards systems&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Technical Maintenance &amp; Support</title><link>http://localhost:1318/services/maintenance-support/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>http://localhost:1318/services/maintenance-support/</guid><description>&lt;p&gt;Keep your software running at peak performance.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Technical Maintenance &amp; Support</title><link>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/maintenance-support/</link><pubDate>Thu, 20 Nov 2025 10:00:00 +0000</pubDate><guid>https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/services/maintenance-support/</guid><description>&lt;p&gt;Keep your software running at peak performance.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;24/7 Monitoring&lt;/strong&gt;: Proactive issue detection&lt;/li&gt;
