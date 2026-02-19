@@ -1,6 +1,20 @@
 # Crafted Edge Solutions Website
 
-This is the corporate website for Crafted Edge Solutions, built with Hugo and the Hugo Theme Stack.
+This is the high-performance corporate website for Crafted Edge Solutions, built with **Hugo** and the **Hugo Theme Stack**. It's designed to be a fast, responsive, and SEO-optimized platform for a digital consultancy.
+
+## ✨ Key Features
+
+-   **High-Impact Case Studies**: Detailed showcase of projects with custom layouts for services and portfolio pieces.
+-   **Service Catalog**: Structured presentation of consultancy services (Web Dev, AI, Cloud Infrastructure).
+-   **Client Dashboard Support**: Designed with integration points for future client portal expansion.
+-   **Advanced SEO**: Built-in meta-tag generation and structured data for maximum search engine visibility.
+
+## 🎨 UI/UX & Design
+
+-   **Modern Minimalist Aesthetic**: A clean, professional look focusing on readability and trust.
+-   **Fully Responsive**: Optimized for all devices using a mobile-first approach.
+-   **Dark/Light Mode**: User-controlled appearance switcher for better accessibility.
+-   **Performance-First Architecture**: Achieves near-instant page transitions and high Lighthouse scores.
 
 ## Project Structure
 
