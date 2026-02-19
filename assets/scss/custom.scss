@@ -64,8 +64,9 @@ section.section {
 .hero-section {
     position: relative;
     padding: var(--space-2xl) var(--space-md);
-    margin: var(--space-md) 0 var(--space-xl);
-    border-radius: 24px;
+    margin: var(--space-md) auto var(--space-xl);
+    max-width: 1100px;
+    border-radius: 32px;
     overflow: hidden;
     background: var(--card-background);
     box-shadow: var(--premium-shadow-subtle);
@@ -74,6 +75,8 @@ section.section {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-height: 600px;
+    justify-content: center;
 
     .hero-bg {
         position: absolute;
@@ -93,33 +96,39 @@ section.section {
     .hero-content {
         position: relative;
         z-index: 1;
-        max-width: 800px;
+        max-width: 850px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .hero-badge {
         display: inline-flex;
         align-items: center;
-        padding: 0.5rem 1.25rem;
+        padding: 0.6rem 1.5rem;
         border-radius: 99px;
         background: rgba(52, 211, 153, 0.08);
         border: 1px solid rgba(52, 211, 153, 0.2);
         color: #34d399;
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         font-weight: 700;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.06em;
         text-transform: uppercase;
         margin-bottom: var(--space-md);
     }
 
     .hero-title {
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: 800;
-        line-height: 1.1;
+        line-height: 1.05;
         margin-bottom: var(--space-md);
-        letter-spacing: -0.02em;
+        letter-spacing: -0.03em;
+
+        @media (max-width: 1024px) {
+            font-size: 3.5rem;
+        }
 
         @media (max-width: 768px) {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
         }
     }
 
@@ -128,14 +137,19 @@ section.section {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        display: inline-block;
     }
 
     .hero-subtitle {
-        font-size: 1.25rem;
-        opacity: 0.8;
-        max-width: 65ch;
+        font-size: 1.4rem;
+        opacity: 0.85;
+        max-width: 60ch;
         margin: 0 auto var(--space-lg);
-        line-height: 1.7;
+        line-height: 1.6;
+
+        @media (max-width: 768px) {
+            font-size: 1.1rem;
+        }
     }
 
     .hero-cta {
