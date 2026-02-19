@@ -1,10 +1,10 @@
-baseURL: "https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/"
-languageCode: "en-us"
-title: "Crafted Edge Solutions"
+baseURL: "http://localhost:1318/"
+languageCode: "en-KE"
+title: "Crafted Edge Solutions | Premium Engineering & Digital Agency"
 theme: "hugo-theme-stack"
 
 # GitHub Pages Configuration
-canonifyURLs: true
+canonifyURLs: false
 relativeURLs: false
 enableRobotsTXT: true
 
@@ -39,19 +39,18 @@ markup:
     highlight:
         noClasses: false
 
-# Menus — defined in content frontmatter (single source of truth)
-# Do NOT add menu.main entries here to avoid duplication
-
 # Parameters
 params:
-    mainSections: ["case-studies", "post"] # Show both in lists if needed, but we use custom layouts
+    description: "Crafted Edge Solutions is a premier engineering and digital agency in Nairobi, Kenya. We specialize in custom software development, ERP integration, and strategic digital marketing for high-ticket clients."
+    keywords: ["Engineering Agency Kenya", "Software Development Nairobi", "ERP Integration Kenya", "Digital Strategy Nairobi", "Crafted Edge Solutions"]
+    mainSections: ["case-studies", "post"]
     featuredImageField: "image"
     rssFullContent: true
-    favicon: "/favicon.ico" # Need to add this later
+    favicon: "/favicon.ico"
     
     footer:
         since: 2024
-        customText: "Built by [Meshack Mogire](https://meshack-vs-you-all.github.io/meshack-hugo-portfolio/) in Nairobi 🇰🇪"
+        customText: "Elevating Kenyan Engineering Standards. A [**Crafted Edge Solutions**](https://meshack-vs-you-all.github.io/crafted-edge-solutions-hg/) Project."
 
     dateFormat:
         published: "Jan 2, 2006"
@@ -59,34 +58,29 @@ params:
 
     sidebar:
         emoji: true
-        subtitle: "Modern Engineering Agency"
+        subtitle: "Premium Engineering Agency"
         compact: false
-        avatar: ""
+        avatar: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=150"
 
     social:
         github: "https://github.com/meshack-vs-you-all"
         twitter: "https://twitter.com/CraftedEdgeKE"
         linkedin: "https://linkedin.com/in/meshackmogire"
-        email: "meshackmogire254@gmail.com"
+        email: "hello@craftededge.co.ke"
 
     article:
         toc: true
-        readingTime: false # Not blog-first
+        readingTime: true
         license:
             enabled: false
 
     colorScheme:
         toggle: true
-        default: "dark" # User requested dark mode
+        default: "dark"
 
-    # Minimize widgets in sidebar
     widgets:
         homepage:
             - type: search
-            - type: testimonials
-            - type: archives
-              params:
-                  limit: 5
             - type: categories
             - type: tag-cloud
               params:
