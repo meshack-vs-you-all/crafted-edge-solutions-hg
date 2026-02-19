@@ -78,6 +78,11 @@ section.section {
     min-height: 600px;
     justify-content: center;
 
+    @media (max-width: 768px) {
+        min-height: 71vh;
+        padding: var(--space-xl) var(--space-md);
+    }
+
     .hero-bg {
         position: absolute;
         inset: 0;
